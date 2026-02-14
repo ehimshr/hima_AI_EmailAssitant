@@ -3,13 +3,17 @@ from langchain_core.output_parsers import StrOutputParser
 from src.utils.llm import get_llm
 from src.core.state import AgentState
 
-llm = get_llm()
 
 def intent_detector_agent(state: AgentState):
     """
     Classifies intent: outreach, follow-up, apology, info, reply, refine.
     """
     print(f"--- INTENT DETECTION AGENT ---")
+    
+    # Get configuration
+    config = state.get('model_config', {'model': 'gpt-4o-mini', 'temperature': 0})
+    llm = get_llm(model=config['model'], temperature=config['temperature'])
+    
     parsed_input = state.get('parsed_input', {})
     input_text = state['messages'][-1].content
     

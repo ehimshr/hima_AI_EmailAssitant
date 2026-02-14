@@ -38,6 +38,11 @@ with st.sidebar:
     with st.expander("Additional Metadata"):
         recipient_override = st.text_input("Recipient Name/Email (Override)")
         extra_constraints = st.text_input("Extra Constraints (e.g., 'no jargon')")
+        
+    st.markdown("---")
+    st.markdown("### LLM Settings")
+    selected_model = st.selectbox("Model", ["gpt-4o-mini", "gpt-4o", "gpt-3.5-turbo"])
+    temperature = st.slider("Temperature", min_value=0.0, max_value=1.0, value=0.7, step=0.1)
     
     st.markdown("---")
     st.markdown("### Debug Info")
@@ -86,6 +91,10 @@ if prompt:
             "intent_mode": intent_mode,
             "recipient_override": recipient_override,
             "extra_constraints": extra_constraints
+        },
+        "model_config": {
+            "model": selected_model,
+            "temperature": temperature
         }
     }
     

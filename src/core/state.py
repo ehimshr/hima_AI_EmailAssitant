@@ -26,3 +26,6 @@ class AgentState(TypedDict):
     
     retry_count: int
     feedback: Optional[str]
+    
+    # Configuration
+    model_config: dict

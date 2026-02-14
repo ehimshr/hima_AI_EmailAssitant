@@ -3,7 +3,6 @@ from langchain_core.output_parsers import StrOutputParser
 from src.utils.llm import get_llm
 from src.core.state import AgentState
 
-llm = get_llm()
 
 def tone_stylist_agent(state: AgentState):
     """
@@ -39,6 +38,10 @@ def tone_stylist_agent(state: AgentState):
         Return the instructions as a paragraph.
         """
     )
+    
+    # Get configuration
+    config = state.get('model_config', {'model': 'gpt-4o-mini', 'temperature': 0.7})
+    llm = get_llm(model=config['model'], temperature=config['temperature'])
     
     chain = prompt | llm | StrOutputParser()
     instructions = chain.invoke({

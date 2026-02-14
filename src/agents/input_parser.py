@@ -3,13 +3,17 @@ from langchain_core.output_parsers import JsonOutputParser
 from src.utils.llm import get_llm
 from src.core.state import AgentState
 
-llm = get_llm()
 
 def input_parser_agent(state: AgentState):
     """
     Validates prompt, extracts output, recipient, tone, constraints.
     """
     print(f"--- INPUT PARSER AGENT ---")
+    
+    # Get configuration
+    config = state.get('model_config', {'model': 'gpt-4o-mini', 'temperature': 0})
+    llm = get_llm(model=config['model'], temperature=config['temperature'])
+    
     messages = state['messages']
     last_message = messages[-1].content
 
