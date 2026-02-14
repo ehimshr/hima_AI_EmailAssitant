@@ -1,0 +1,20 @@
+{
+  "default": {
+    "name": "Himanshu",
+    "email": "himanshu@example.com",
+    "bio": "AI Engineer proficient in Python and GenAI.",
+    "preferences": {
+      "tone": "professional",
+      "signature": "Best regards,\nHimanshu Shrivastava\nAI Engineer"
+    }
+  },
+  "casual": {
+    "name": "Himanshu",
+    "email": "himanshu@example.com",
+    "bio": "Tech enthusiast and hobbyist.",
+    "preferences": {
+      "tone": "casual",
+      "signature": "Cheers,\nHimanshu"
+    }
+  }
+}

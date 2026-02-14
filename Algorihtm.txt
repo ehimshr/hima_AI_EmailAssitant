@@ -1,0 +1,9 @@
+1. Technical Architecture
+    Multi-Agent System : LangGraph
+    Language Models : Claude
+    Email Template Engine : LangChain + Function Calling
+    User Profile Store : JSON
+    Web Interface : Streamlit
+    Memory Layer : LangGraph Memory
+    Control Plane (MCP) : LangSmith
+
