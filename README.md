@@ -15,6 +15,7 @@ A sophisticated, multi-agent AI system designed to draft, refine, and personaliz
 ![Alt text](images/additional_metadata.jpg)
 ---
 
+
 ## 🌟 Key Features
 
 -   **Multi-Agent Architecture**: 6 specialized agents work together to parse, plan, write, and review your emails.
