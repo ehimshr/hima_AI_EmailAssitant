@@ -13,7 +13,7 @@ A sophisticated, multi-agent AI system designed to draft, refine, and personaliz
 ![Alt text](images/multi_llm_choice.jpg)
 #### Additional Metadata : Add recipient mail and extra constraints
 ![Alt text](images/additional_metadata.jpg)
----
+
 
 
 ## 🌟 Key Features
