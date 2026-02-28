@@ -6,7 +6,13 @@ A sophisticated, multi-agent AI system designed to draft, refine, and personaliz
 ![Alt text](images/hima_emailAssitant.jpg)
 
 ### 🚀 App Features Screenshots
-![Alt text](images/internt_feature.jpg) | ![Alt text](images/multi_llm_choice.jpg) | ![Alt text](images/additional_metadata.jpg)
+
+#### Intent Detection
+![Alt text](images/internt_feature.jpg) 
+#### Multi LLM Choice
+![Alt text](images/multi_llm_choice.jpg)
+#### Additional Metadata
+![Alt text](images/additional_metadata.jpg)
 
 ## 🌟 Key Features
 
