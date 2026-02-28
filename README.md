@@ -2,6 +2,12 @@
 
 A sophisticated, multi-agent AI system designed to draft, refine, and personalize emails based on your unique style and context. Built with **LangGraph**, **LangChain**, and **Streamlit**.
 
+## 🚀 App Screenshot
+![Alt text](images/hima_emailAssitant.jpg)
+
+### 🚀 App Features Screenshots
+![Alt text](images/internt_feature.jpg) | ![Alt text](images/multi_llm_choice.jpg) | ![Alt text](images/additional_metadata.jpg)
+
 ## 🌟 Key Features
 
 -   **Multi-Agent Architecture**: 6 specialized agents work together to parse, plan, write, and review your emails.

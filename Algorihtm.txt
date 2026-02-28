@@ -7,3 +7,16 @@
     Memory Layer : LangGraph Memory
     Control Plane (MCP) : LangSmith
 
+
+Agent Name : Function
+Input Parsing Agent : Validates prompt, extracts intent, recipient, tone, constraints
+Intent Detection Agent : Classifi es intent: outreach, follow-up, apology, info, etc.
+Tone Stylist Agent : Adjusts tone (formal, friendly, assertive, etc.) using tokenized prompts
+Draft Writer Agent : Generates main body text with structure and clarity
+Personalization Agent : Injects user profi le data and prior messages
+Review & Validator Agent : Checks grammar, tone alignment, and ensures contextual coherence
+Routing & Memory Agent : Manages fallback fl ow, logs drafts, and stores profi le memory
+
+
+
+https://docs.google.com/spreadsheets/d/1UM1JB74_pJqY60_vv0-mfzPNoDobxlZuHBa7LeABE_g/edit?gid=841039536#gid=841039536
