@@ -6,12 +6,14 @@ A sophisticated, multi-agent AI system designed to draft, refine, and personaliz
 ![Alt text](images/hima_emailAssitant.jpg)
 
 ### 🚀 App Features Screenshots
-#### **Intent Detection** : Manually specify if it's an Outreach, Follow-up, Apology, etc.
+---
+#### Intent Detection : Manually specify if it's an Outreach, Follow-up, Apology, etc.
 ![Alt text](images/internt_feature.jpg) 
-#### **Multi LLM Choice** : Switch between `gpt-4o`, `gpt-4o-mini`, etc. directly from the UI.
+#### Multi LLM Choice : Switch between `gpt-4o`, `gpt-4o-mini`, etc. directly from the UI.
 ![Alt text](images/multi_llm_choice.jpg)
-#### **Additional Metadata** : Add recipient mail and extra constraints
+#### Additional Metadata : Add recipient mail and extra constraints
 ![Alt text](images/additional_metadata.jpg)
+---
 
 ## 🌟 Key Features
 
